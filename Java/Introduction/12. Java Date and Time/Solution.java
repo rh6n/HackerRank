@@ -21,7 +21,7 @@ class Result {
     public static String findDay(int month, int day, int year) {
         Calendar calendar = Calendar.getInstance();
         calendar.set(year, month - 1, day);
-        return calendar.getDisplayName(calendar.DAY_OF_WEEK, calendar.LONG, Locale.ENGLISH).toUpperCase();
+        return calendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.ENGLISH).toUpperCase();
     }
 
 }

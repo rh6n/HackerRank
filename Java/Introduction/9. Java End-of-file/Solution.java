@@ -13,6 +13,7 @@ public class Solution {
             System.out.println(a + " " + scan.nextLine());
             a += 1;
         }
+        scan.close();
 
     }
 }
